@@ -1,0 +1,50 @@
+【任务一】
+1.1 MySQL 软件安装及数据库基础
+
+#学习内容# 1.软件安装及服务器设置。    教程 http://www.runoob.com/mysql/mysql-install.html
+
+2.使用图形界面软件 Navicat for SQL   
+3.数据库基础知识    数据库定义    关系型数据库    二维表    行    列    主键    外键
+
+4.MySQL数据库管理系统    数据库    数据表    视图    存储过程
+1.2 MySQL 基础 （一）- 查询语句
+
+
+  
+
+
+项目一 -- 创建表
+
+CREATE TABLE email (
+ID INT NOT NULL PRIMARY KEY,
+Email VARCHAR(255)
+);
+
+-- 插入数据
+
+INSERT INTO email VALUES('1','a@b.com');
+INSERT INTO email VALUES('2','c@d.com');
+INSERT INTO email VALUES('3','a@b.com');
+
+项目二 -- 创建表
+
+CREATE TABLE World (
+name VARCHAR(50) NOT NULL,
+continent VARCHAR(50) NOT NULL,
+area INT NOT NULL,
+population INT NOT NULL,
+gdp INT NOT NULL
+);
+
+-- 插入数据
+
+INSERT INTO World
+  VALUES('Afghanistan','Asia',652230,25500100,20343000);
+INSERT INTO World 
+  VALUES('Albania','Europe',28748,2831741,12960000);
+INSERT INTO World 
+  VALUES('Algeria','Africa',2381741,37100000,188681000);
+INSERT INTO World
+  VALUES('Andorra','Europe',468,78115,3712000);
+INSERT INTO World
+  VALUES('Angola','Africa',1246700,20609294,100990000);
